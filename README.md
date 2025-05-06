@@ -1,25 +1,53 @@
-# README
+# Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple blog web application built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. The goal was to practice working with a Ruby on Rails backend, manage models and relationships, and create a basic CRUD system for posts and comments.
 
-Things you may want to cover:
+##  Features
 
-* Ruby version
+- Create, edit, and delete blog posts
+- Comment on individual posts
+- Basic authentication for users (if implemented)
+- Clean and minimal Rails MVC structure
 
-* System dependencies
 
-* Configuration
+### Setup Instructions
 
-* Database creation
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Ajbakaric/Project_Blog_App.git
+   cd Project_Blog_App
+````
 
-* Database initialization
+2. **Install dependencies**
 
-* How to run the test suite
+   ```bash
+   bundle install
+   yarn install # if using JS/CSS bundling
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+3. **Set up the database**
 
-* Deployment instructions
+   ```bash
+   rails db:create
+   rails db:migrate
+   ```
 
-* ...
-# Project_Blog_App
+4. **Run the server**
+
+   ```bash
+   rails server
+   ```
+
+5. Open `http://localhost:3000` in your browser.
+
+---
+
+##  Acknowledgments
+
+This project was built as part of [The Odin Project's Ruby on Rails curriculum](https://www.theodinproject.com/paths/full-stack-ruby-on-rails).
+
+---
+
+##  Author
+
+* GitHub: [@Ajbakaric](https://github.com/Ajbakaric)
